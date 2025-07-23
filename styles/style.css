@@ -46,3 +46,28 @@
     font-weight: 600;
     border: none;
 }
+/* upcmming matches */
+.upcoming-matches{
+    display: flex;
+    padding: 50px 0;
+    gap: 10px;
+}
+.upcoming-matches-left{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 25%;
+}
+.upcoming-matches-left .btn:nth-child(1),
+.upcoming-matches-left .btn:nth-child(2){
+    background-color: white;
+    color: black;
+
+}
+.upcoming-matches-right{
+background-color: ;
+flex: 1;
+}
